@@ -43,6 +43,7 @@
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
                                 <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                                <variation key="heightClass=regular-widthClass=regular" axis="horizontal"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbM-Hc-Rbl">
                                 <rect key="frame" x="85" y="482" width="150" height="36"/>
@@ -52,7 +53,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="START">
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
                                 <connections>
@@ -63,11 +64,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GDx-MT-gIg"/>
-                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WVC-k7-OlB"/>
-                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3125" id="XBK-Q1-hfI"/>
+                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Edk-iM-k1s"/>
+                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="RWI-Ls-8Tv"/>
+                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UCX-VE-XXm"/>
+                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3125" id="bye-Vu-hVH"/>
                             <constraint firstItem="TbM-Hc-Rbl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dKs-UV-Fav"/>
-                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="l2q-h9-yp3"/>
+                            <constraint firstItem="Jgy-Sa-43m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="mfg-xm-vHN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TbM-Hc-Rbl" secondAttribute="bottom" constant="50" id="p5x-Fq-Pz9"/>
                         </constraints>
                     </view>
