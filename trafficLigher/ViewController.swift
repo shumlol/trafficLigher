@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  trafficLigher
+//  trafficLighter
 //
 //  Created by Вадим Ахматханов on 10.04.2023.
 //
