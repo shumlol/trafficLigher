@@ -7,9 +7,9 @@
 
 import UIKit
 
-enum CurrentLight {
+enum CurrentLight { //del for if else
     case red, yellow, green
-}
+} //del for if else
 
 class ViewController: UIViewController {
     
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     private let lightIsOn: CGFloat = 1
     private let lightIsOff: CGFloat = 0.3
     
-    private var currentLight = CurrentLight.red
+    private var currentLight = CurrentLight.red //del for if else
     
     override func viewDidLoad() {
         super.viewDidLoad()
