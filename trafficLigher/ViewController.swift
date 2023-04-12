@@ -7,8 +7,8 @@
 
 import UIKit
 
-enum CurrentLight { //del for if else
-    case red, yellow, green
+enum CurrentLight { //
+    case red, yellow, green //
 } //del for if else
 
 class ViewController: UIViewController {
