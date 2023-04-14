@@ -40,7 +40,7 @@
 		8BB6F43329E450310077C606 = {
 			isa = PBXGroup;
 			children = (
-				8BB6F43E29E450310077C606 /* trafficLigher */,
+				8BB6F43E29E450310077C606 /* trafficLighter */,
 				8BB6F43D29E450310077C606 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BB6F43E29E450310077C606 /* trafficLigher */ = {
+		8BB6F43E29E450310077C606 /* trafficLighter */ = {
 			isa = PBXGroup;
 			children = (
 				8BB6F43F29E450310077C606 /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				8BB6F44A29E450320077C606 /* LaunchScreen.storyboard */,
 				8BB6F44D29E450320077C606 /* Info.plist */,
 			);
-			path = trafficLigher;
+			path = trafficLighter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
