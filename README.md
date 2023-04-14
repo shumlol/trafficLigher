@@ -1,2 +1,2 @@
-# trafficLigher
+# trafficLighter
 homework projectL: trafficLighterApp
