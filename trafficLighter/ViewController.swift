@@ -11,6 +11,13 @@ enum CurrentLight { //
     case red, yellow, green //
 } //del for if else
 
+//let oct = 0o12
+
+//let hex = 0xff
+
+//let binary = 0b11111111
+
+
 class ViewController: UIViewController {
     
     @IBOutlet var redLight: UIView!
